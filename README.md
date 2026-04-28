@@ -2,7 +2,7 @@
 
 TCP video streaming project in C++.
 
-The server reads frames from `/dev/video0`, resizes them to the user output size, encodes them as H.264, and sends them to one client.  
+The server reads frames from `/dev/video0`, resizes them to the user output size, encodes them as H.264, and sends them to one client by tcp server.  
 The client receives H.264 packets, decodes them, and shows the stream in a window.
 
 ## Requirements
